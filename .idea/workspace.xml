@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -21,9 +28,15 @@
     </option>
   </component>
   <component name="ProjectId" id="1iEkP9dF9XCgfFoDnTP4CeBFYxf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_three" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c2de19e0-090e-44e0-b9a0-67521c27a303" name="Default Changelist" comment="" />
@@ -33,5 +46,23 @@
       <updated>1601480125463</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="273" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1601483136209">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="273" y="68" key="#com.intellij.ide.util.MemberChooser/0.0.1024.738@0.0.1024.738" timestamp="1601483136209" />
+    <state x="352" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1601480256351">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="352" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1024.738@0.0.1024.738" timestamp="1601480256351" />
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601481477165">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.738@0.0.1024.738" timestamp="1601481477165" />
+    <state x="292" y="122" key="FileChooserDialogImpl" timestamp="1601480200440">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="292" y="122" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1601480200440" />
   </component>
 </project>
