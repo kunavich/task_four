@@ -5,11 +5,13 @@
  */
 package by.kunavich.task4.view;
 
+import by.kunavich.task4.model.Array;
+
 /**
  *
  * @author Lord
  */
 public interface ResultPrinter {
-    void printResult(int amount);
+    void printResult(Array array);
     
 }

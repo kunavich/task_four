@@ -34,7 +34,71 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/by/kunavich/task4" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_three" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="by.kunavich.task4.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="by.kunavich.task4.data.dataAcquirer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ArrayTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task4.Main" />
+      <module name="task_four" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task4.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_four" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task4.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task4.model" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task4.model.ArrayTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_four" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.kunavich.task4.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.kunavich.task4.logic" />
+      <option name="MAIN_CLASS_NAME" value="by.kunavich.task4.logic.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ArrayTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,6 +112,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#Project_Structure" timestamp="1601708249895">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="0" y="0" key="#Project_Structure/0.0.1024.738@0.0.1024.738" timestamp="1601708249895" />
     <state x="273" y="68" key="#com.intellij.ide.util.MemberChooser" timestamp="1601483136209">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
@@ -56,13 +124,64 @@
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="352" y="292" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1024.738@0.0.1024.738" timestamp="1601480256351" />
-    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601481477165">
+    <state x="295" y="236" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1601711802963">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
-    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.738@0.0.1024.738" timestamp="1601481477165" />
+    <state x="295" y="236" width="433" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1024.738@0.0.1024.738" timestamp="1601711802963" />
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601708556326">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="242" y="114" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1024.738@0.0.1024.738" timestamp="1601708556326" />
     <state x="292" y="122" key="FileChooserDialogImpl" timestamp="1601480200440">
       <screen x="0" y="0" width="1024" height="738" />
     </state>
     <state x="292" y="122" key="FileChooserDialogImpl/0.0.1024.738@0.0.1024.738" timestamp="1601480200440" />
+    <state width="980" height="176" key="GridCell.Tab.0.bottom" timestamp="1601711928206">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.bottom/0.0.1024.738@0.0.1024.738" timestamp="1601711928206" />
+    <state width="980" height="176" key="GridCell.Tab.0.center" timestamp="1601711928205">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.center/0.0.1024.738@0.0.1024.738" timestamp="1601711928205" />
+    <state width="980" height="176" key="GridCell.Tab.0.left" timestamp="1601711928205">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.left/0.0.1024.738@0.0.1024.738" timestamp="1601711928205" />
+    <state width="980" height="176" key="GridCell.Tab.0.right" timestamp="1601711928205">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="176" key="GridCell.Tab.0.right/0.0.1024.738@0.0.1024.738" timestamp="1601711928205" />
+    <state width="980" height="221" key="GridCell.Tab.1.bottom" timestamp="1601709214453">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.bottom/0.0.1024.738@0.0.1024.738" timestamp="1601709214453" />
+    <state width="980" height="221" key="GridCell.Tab.1.center" timestamp="1601709214453">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.center/0.0.1024.738@0.0.1024.738" timestamp="1601709214453" />
+    <state width="980" height="221" key="GridCell.Tab.1.left" timestamp="1601709214452">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.left/0.0.1024.738@0.0.1024.738" timestamp="1601709214452" />
+    <state width="980" height="221" key="GridCell.Tab.1.right" timestamp="1601709214453">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state width="980" height="221" key="GridCell.Tab.1.right/0.0.1024.738@0.0.1024.738" timestamp="1601709214453" />
+    <state x="328" y="145" key="chooseDestDirectoryDialog" timestamp="1601711221843">
+      <screen x="0" y="0" width="1024" height="738" />
+    </state>
+    <state x="328" y="145" key="chooseDestDirectoryDialog/0.0.1024.738@0.0.1024.738" timestamp="1601711221843" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/by/kunavich/task4/data/dataAcquirer/RandomDataAcquirer.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

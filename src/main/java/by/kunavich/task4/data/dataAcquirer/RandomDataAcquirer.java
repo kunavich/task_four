@@ -8,24 +8,25 @@ package by.kunavich.task4.data.dataAcquirer;
 import by.kunavich.task4.data.DataException;
 import by.kunavich.task4.model.Array;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
  *
  * @author Lord
  */
-public class ConsoleDataAcquirer implements DataAcquirer{
+public class RandomDataAcquirer implements DataAcquirer{
 
     @Override
     public Array getData() throws DataException {
-        System.out.println("Enter array of numbers (like this 1 4 3 8)");
-        try (Scanner scanner = new Scanner(System.in)){
-            String input =scanner.next();
-
-
-            return Array.parseArray(input);
+        Random rnd = new Random();
+        int length = (Math.abs(rnd.nextInt()%25));
+        Array array =new Array();
+        for (int i=0;i<length;i++)
+        {
+            array.add(Math.abs(rnd.nextInt()%150));
         }
-
+        return array;
 
 
     }

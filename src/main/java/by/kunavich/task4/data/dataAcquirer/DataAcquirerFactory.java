@@ -8,6 +8,8 @@ public class DataAcquirerFactory {
                 return new ConsoleDataAcquirer();
             case "FILE":
                 return  new FileDataAcquirer();
+            case "RANDOM":
+                return  new RandomDataAcquirer();
 
             default:
                 throw new RuntimeException("wrong type : "+type);

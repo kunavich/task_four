@@ -15,8 +15,9 @@ public class Array {
     public Array(int[] newArray)
     {
         this.array= newArray;
-       // List<Integer> l;
-       // l.
+
+        List<Integer> l;
+        ////l.
 
     }
 
@@ -82,5 +83,72 @@ public class Array {
     @Override
     public int hashCode() {
         return Arrays.hashCode(array);
+    }
+
+    public void set(int index,int element)
+    {
+        array[index]=element;
+    }
+    public void clear(){
+        array = new int[0];
+    }
+
+    public static Array parseArray(String line)
+    {
+        String[] split = line.split(" ");
+        Array array= new Array();
+        for (String num:split) {
+            array.add(Integer.parseInt(num));
+        }
+        return array;
+    }
+
+    public void mergeSort() {
+        if (this.size() < 2) {
+            return;
+        }
+        int mid = this.size() / 2;
+        Array leftPart = new Array();
+        Array rightPart = new Array();
+
+        for (int i = 0; i < mid; i++) {
+            int element= this.get(i);
+            leftPart.add(element);
+        }
+        for (int i = mid; i < this.size(); i++) {
+            int element= this.get(i);
+            rightPart.add(element);
+        }
+        leftPart.mergeSort();
+        rightPart.mergeSort();
+
+        merge(this, leftPart, rightPart, mid, this.size() - mid);
+    }
+
+    private void merge(Array array, Array leftPart, Array rightPart, int left, int right) {
+
+        int i = 0, j = 0, k = 0;
+
+
+        while (i < left && j < right) {
+            if (leftPart.get(i) <= rightPart.get(j)) {
+                int element = leftPart.get(i++);
+                array.set(k++,element);
+            }
+            else {
+                int element = rightPart.get(j++);
+                array.set(k++,element);
+            }
+        }
+
+        while (i < left) {
+            int element = leftPart.get(i++);
+            array.set(k++,element);
+        }
+
+        while (j < right) {
+            int element = rightPart.get(j++);
+            array.set(k++,element);
+        }
     }
 }

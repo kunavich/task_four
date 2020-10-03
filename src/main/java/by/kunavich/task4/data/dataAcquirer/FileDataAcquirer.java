@@ -6,6 +6,7 @@
 package by.kunavich.task4.data.dataAcquirer;
 
 import by.kunavich.task4.data.DataException;
+import by.kunavich.task4.model.Array;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -19,18 +20,14 @@ import java.io.IOException;
 public class FileDataAcquirer implements DataAcquirer{
 
     private static final String FILE_NAME = "text.txt";
-    private int Iterator=-1;
 
     @Override
-    public String getData() throws DataException {
+    public Array getData() throws DataException {
         try {
             BufferedReader reader = new BufferedReader(new FileReader(FILE_NAME));
 
-            String[] names = (reader.readLine()).split(" ");
-            Iterator++;
-            if (Iterator >= names.length)
-                Iterator = 0;
-            return names[Iterator];
+            String data = (reader.readLine());
+            return Array.parseArray(data);
         }
         catch (IOException e) {
             throw new DataException(e.getMessage(), e);

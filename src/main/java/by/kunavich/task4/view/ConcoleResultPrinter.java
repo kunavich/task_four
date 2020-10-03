@@ -5,6 +5,8 @@
  */
 package by.kunavich.task4.view;
 
+import by.kunavich.task4.model.Array;
+
 /**
  *
  * @author Lord
@@ -12,8 +14,8 @@ package by.kunavich.task4.view;
 public class ConcoleResultPrinter implements ResultPrinter{
 
     @Override
-    public void printResult(int amount) {
-        System.out.println("Amount of passangers: "+ amount);
+    public void printResult(Array array) {
+        System.out.println("Fibonachi numbers in array: "+ array.toString());
 
     }
 }

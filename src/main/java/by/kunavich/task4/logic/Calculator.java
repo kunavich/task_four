@@ -6,51 +6,35 @@
 package by.kunavich.task4.logic;
 
 
+import by.kunavich.task4.model.Array;
+
 /**
  *
  * @author Lord
  */
 public class Calculator {
 
+    public Array findFibonachi(Array array)
+    {
+        array.mergeSort();
+        int firstFibonachi=0;
+        int secondFibonachi=1;
+        Array fibonachi =new Array();
+        for (int element:array.getData()) {
+            while (element>=secondFibonachi)
+            {
+                int temp=secondFibonachi;
+                secondFibonachi+=firstFibonachi;
+                firstFibonachi=temp;
 
-    public  void mergeSort(int[] array, int length) {
-        if (length < 2) {
-            return;
-        }
-        int mid = length / 2;
-        int[] leftPart = new int[mid];
-        int[] rightPart = new int[length - mid];
-
-        for (int i = 0; i < mid; i++) {
-            leftPart[i] = array[i];
-        }
-        for (int i = mid; i < length; i++) {
-            rightPart[i - mid] = array[i];
-        }
-        mergeSort(leftPart, mid);
-        mergeSort(rightPart, length - mid);
-
-        merge(array, leftPart, rightPart, mid, length - mid);
-    }
-    private void merge(int[] array, int[] leftPart, int[] rightPart, int left, int right) {
-
-        int i = 0, j = 0, k = 0;
-
-        while (i < left && j < right) {
-            if (leftPart[i] <= rightPart[j]) {
-                array[k++] = leftPart[i++];
             }
-            else {
-                array[k++] = rightPart[j++];
+            if( element == firstFibonachi) {
+                fibonachi.add(element);
             }
         }
-
-        while (i < left) {
-            array[k++] = leftPart[i++];
-        }
-
-        while (j < right) {
-            array[k++] = rightPart[j++];
-        }
+        return fibonachi;
     }
+
+
+
 }

@@ -7,12 +7,13 @@ package by.kunavich.task4.data.dataAcquirer;
 
 
 import by.kunavich.task4.data.DataException;
+import by.kunavich.task4.model.Array;
 
 /**
  *
  * @author Lord
  */
 public interface DataAcquirer {
-    String getData() throws DataException;
+    Array getData() throws DataException;
     
 }
